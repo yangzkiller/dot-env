@@ -1,0 +1,20 @@
+{
+    "name": "yangz/dot-env",
+    "description": "A simple library for managing environment variables in PHP.",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "yangz",
+            "email": "clisesque2k18@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Yangz\\DotEnv\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0"
+    }
+}
